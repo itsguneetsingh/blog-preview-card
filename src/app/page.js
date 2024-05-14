@@ -4,7 +4,7 @@ import "./stylesheet.css";
 
 const Home = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen">
+    <div className="flex items-center justify-center min-h-screen bg-[rgb(245,208,78)]">
       <div class="outer-div">
         <img src="/illustration-article.svg" className="rounded-lg m-5" />
         <div className="flex flex-col items-start justify-items-start space-y-4 w-full px-5 pb-5">
@@ -14,10 +14,10 @@ const Home = () => {
           <div className="rounded font-medium text-sm">
             Published 21 Dec 2023
           </div>
-          <div className="rounded font-extrabold text-xl p-y-2 hover:text-[rgb(245,208,78)]">
+          <div className="rounded font-extrabold text-2xl p-y-2 hover:text-[rgb(245,208,78)]">
             HTML & CSS foundations
           </div>
-          <p className="rounded text-md font-medium text-zinc-500 p-y-2 text-wrap max-w-fit">
+          <p className="rounded text-sm font-medium text-zinc-500 p-y-2 text-wrap max-w-fit">
             These languages are the backbone of every
             <br />
             website, defining structure, content and
@@ -25,8 +25,8 @@ const Home = () => {
             presentation.
           </p>
           <div className="flex items-center justify-center space-x-4">
-            <Image src="/image-avatar.webp" height={50} width={50} />
-            <span className="font-bold">Greg Hooper</span>
+            <Image src="/image-avatar.webp" height={30} width={30} />
+            <span className="font-bold text-xs">Greg Hooper</span>
           </div>
         </div>
       </div>
