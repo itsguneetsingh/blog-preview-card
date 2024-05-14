@@ -26,7 +26,7 @@ const Home = () => {
           </p>
           <div className="flex items-center justify-center space-x-4">
             <Image src="/image-avatar.webp" height={30} width={30} />
-            <span className="font-bold text-xs">Greg Hooper</span>
+            <span className="font-extrabold text-xs">Greg Hooper</span>
           </div>
         </div>
       </div>
