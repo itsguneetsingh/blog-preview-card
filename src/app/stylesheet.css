@@ -1,0 +1,4 @@
+.outer-div {
+  @apply bg-white items-center justify-center flex flex-col rounded-2xl border-2 border-black;
+  box-shadow: 7px 7px;
+}
